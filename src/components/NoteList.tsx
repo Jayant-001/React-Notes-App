@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from "react";
 import { Button, Col, Form, Modal, Row, Stack } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import ReactSelect from "react-Select";
+import ReactSelect from "react-select";
 import { Tag } from "../App";
 import NoteCard from "./NoteCard";
 
