@@ -70,6 +70,7 @@ export const NoteList: React.FC<NoteFormProps> = ({
                             <Form.Label>Title</Form.Label>
                             <Form.Control
                                 type="text"
+                                placeholder="Type to search"
                                 value={title}
                                 onChange={(e) => setTitle(e.target.value)}
                             />
